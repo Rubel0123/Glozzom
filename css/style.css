@@ -1,0 +1,152 @@
+
+.navbar {
+  background: #000; }
+  .navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background-image: url('../image/image1.jpeg');
+    background-size: cover;
+}
+.carousel-img-2{
+    background-image: url('../image/image2.jpeg');
+    background-size: cover;
+}
+.carousel-img-3{
+    background-image: url('../image/show.jpeg');
+    background-size: cover;
+}
+.carousel-img-4{
+    background-image: url('../image/image3.jpeg');
+    background-size: cover;
+}
+#home-icon .fa {
+  font-size: 50px; 
+}
+
+#getstarted {
+    position: relative;
+  background-image: url('../image/bg1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 350px;
+     padding-left: 15px;
+}
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+#home-video {
+  position: relative;
+  background: url("../image/people.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+}
+  #home-video .fa {
+    font-size: 50px; 
+      color: #ff0000;
+}
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+#gallery img {
+  min-height: 250px;
+}
+
+#copyright {
+  background: #000; 
+}
+
+/*About-us*/
+#page-header{
+    background: url('../image/show.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+#about-info img{
+     width: 300px;
+     height: 300px;
+}
+
+#icon-boxes i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.slick-prev:before, .slick-next:before{
+    color: #000;
+}
+
+        /*Services-section*/
+#service-page-header{
+    background: url('../image/image1.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+        /*Blog-section*/
+#blog-page-header{
+    background: url('../image/image2.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+#blog img{
+    height: 200px; 
+}
+/* contact section*/
+#contact-page-header{
+    background: url('../image/image6.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+
+     /*media jqury*/
+
+@media(max-width: 991px) {
+  #getstarted {
+    min-height: 350px; }
+}
+
+@media(max-width: 767px){
+    
+    .nav-item{
+        padding-left: 0 !important;
+    }
+    #getstarted{
+        min-height: 350px;
+    }
+}
+@media(max-width:480px){
+    .carousel{
+        h1{
+            font-size: 3rem;
+        }
+    }
+    #getstarted{
+        min-height: 450px;
+       
+    }
+}
